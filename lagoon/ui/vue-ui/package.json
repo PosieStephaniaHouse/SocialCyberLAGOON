@@ -9,10 +9,12 @@
   },
   "dependencies": {
     "@mdi/font": "5.9.55",
+    "autoprefixer": "^10.4.13",
     "colormap": "^2.3.2",
     "cytoscape": "^3.19.0",
     "cytoscape-cola": "^2.4.0",
     "dayjs": "^1.10.6",
+    "postcss": "^8.4.19",
     "roboto-fontface": "*",
     "vue": "^3.0.0",
     "vue-router": "^4.0.0-0",
@@ -32,7 +34,7 @@
     "eslint-plugin-vue": "^7.0.0",
     "pug": "^3.0.2",
     "pug-plain-loader": "^1.1.0",
-    "sass": "~1.32.0",
+    "sass": "~1.33.0",
     "sass-loader": "^10.0.0",
     "typescript": "~4.1.5",
     "vue-cli-plugin-vuetify": "~2.4.1"
