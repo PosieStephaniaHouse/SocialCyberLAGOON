@@ -28,7 +28,8 @@ def backup_restore(fpath: pathlib.Path=typer.Argument(..., exists=True)):
 
     pg_env = {
             'PGHOST': cfg['db']['host'],
-            'PGPORT': '5432',  # cfg['db']['port'],  -- port forwarded
+            'PGPORT': cfg['db']['port'],  #-- port forwarded
+            #'PGPORT': '5432',  # cfg['db']['port'],  -- port forwarded
             'PGUSER': cfg['db']['user'],
             'PGPASSWORD': cfg['db']['password'],
             'PATH': os.environ['PATH'],

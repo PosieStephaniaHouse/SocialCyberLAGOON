@@ -12,7 +12,7 @@ def get_config():
                 'user': 'postgres',
                 'password': 'lagoon345',
                 'host': 'localhost',
-                'port': 9454,
+                'port': '9454',
                 'db': 'lagoon_db',
             },
             'dev': {
